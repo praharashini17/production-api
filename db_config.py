@@ -9,7 +9,7 @@ DB_PASSWORD = "secret"
 
 # Sessions table schema
 SESSIONS_TABLE = "sessions"
-SESSIONS_COLUMNS = ["session_id", "user_id", "created_at", "expires_at"]
+SESSIONS_COLUMNS = ["session_id", "created_at", "expires_at"]
 
 # Connection pool settings
 MAX_CONNECTIONS = 20
